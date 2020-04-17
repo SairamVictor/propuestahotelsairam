@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    font-size: 16px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    line-height: 1.4em;
+	background-color:#147278
+    }
+.contenedormenu{
+	width: auto;
+    margin: auto;
+}
+.encabezado{
+	background:#2bc7ef;
+    overflow: hidden;
+    height: 90px;
+    box-shadow: 0 0 10px #070707;
+    position: relative;
+    text-align: center;
+}
+.encabezado nav {
+    float: right;
+} 
+.encabezado nav ul {
+    margin: 0;
+	padding: 20px;
+    list-style: none;
+    
+}
+.encabezado nav ul li {
+    display: inline-block;
+    margin-right: -9px;
+    text-align: center;
+    list-style: none;
+}
+.encabezado nav ul li a{
+    margin-top: 13px;
+    display: block;
+    padding: 0px 70px 0px 70px;
+    font-size: medium;
+    height: 70px;
+    color: #fff;
+    text-decoration: none;
+    border-left: lpx
+}
+.encabezado nav ul li a:hover{
+    color: black;
+    margin: 0 auto;
+}
+.imagensurf{
+	width: auto;
+    margin: auto;
+	float: right;
+	display: block;
+}
+.contenedor{
+    width: 1013px;
+    height: 850px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+.iconos .contenedor #traje {
+}
+#palmera{
+    float: left;
+    margin-top: -43px;
+}
+#palmera img{
+	width: 50%;
+}
+#palmera p{
+	text-align: center;
+    margin-left: 5px;
+    position: relative;
+}
+#agua{
+    float: left;
+    margin-left: 203px;
+    margin-top: -18px;
+}
+#agua img{
+	width: 50%
+}
+#agua p{
+	text-align: center;
+    margin-left: 5px;
+    position: relative;
+}
+#traje{
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-left: 196px;
+    margin-top: -64px;
+}
+#traje img {
+	width: 40%
+}
+#traje p{
+	text-align: center;
+    margin-left: 5px;
+    position: relative;
+}
+footer{
+    background-color: #2bc7ef;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    vertical-align: middle;
+    line-height: normal;
+    padding-bottom: 5px;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin-top: 11px;
+}
